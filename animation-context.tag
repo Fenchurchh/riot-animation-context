@@ -26,6 +26,7 @@
         }
 
         this.on('mount', function() {
+            $this.context = $this.context || $this.refs.context
             var delay
             if ((delay = parseInt(opts.animateAutoInDelay,10)) > 0) {
                _inwards = setTimeout(function() {
