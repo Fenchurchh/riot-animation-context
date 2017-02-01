@@ -1,5 +1,5 @@
 <animation-context>
-    <div name="context" class="not-ready"><yield/></div>
+    <div ref="context" name="context" class="not-ready"><yield/></div>
     <script>
         var $this = this,
             _outwards,
